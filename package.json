@@ -1,0 +1,39 @@
+{
+  "name": "generator-dash",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Circular-Studios/generator-dash",
+  "license": "MIT",
+  "description": "Yeoman generator for Dash tools",
+  "main": "generators/app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Circular-Studios/generator-dash.git"
+  },
+  "contributors": [
+    {
+      "name": "Colden Cullen",
+      "email": "colden@coldencullen.com",
+      "url": "https://github.com/ColdenCullen"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/Circular-Studios/generator-dash/issues"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.17.0",
+    "chalk": "^0.5.0",
+    "yosay": "^0.3.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  }
+}
