@@ -40,8 +40,6 @@ var DashGenerator = yeoman.generators.Base.extend( {
         },
 
         projectfiles: function() {
-            this.src.copy( 'editorconfig', '.editorconfig');
-            this.src.copy( 'jshintrc', '.jshintrc');
         }
     },
 
